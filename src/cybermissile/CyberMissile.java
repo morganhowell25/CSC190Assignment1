@@ -10,7 +10,6 @@ package cybermissile;
  * @author csc190
  */
 public class CyberMissile {
-
     /**
      * @param args the command line arguments
      */
@@ -18,8 +17,8 @@ public class CyberMissile {
         // TODO code application logic here
         FlightSystem fs = new FlightSystem();
         Warhead wh = new Warhead();
-        fs.setTarget("Argsfoh University");
-        wh.explode();
+        fs.setTarget("Moon");
+        wh.selfDestruct();
     }
     
 }
